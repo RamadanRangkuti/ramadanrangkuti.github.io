@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #0a192f;
+  color: white;
+}
+
+.container{
+  display: inline;
+}
+
+.header h2{
+  cursor: pointer;
+}
+
+.header{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 30px 0 30px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  border-bottom: 5px solid rgb(54, 60, 69);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:60px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover {
+  color: #49638b;
+}
+
+.hero{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.hero h1{
+  font-size: 50px;
+  margin-top: -20px;
+}
+
+.hero h3{
+  font-size: 30px;
+  color: #8c94a2;
+  margin-top: -30px;
+}
+
+.hero img{
+  width: 230px;
+  border-radius: 50%;
+}
+
+.sosmed{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.main{
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+.main h1{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap:80px;
+}
+
+.main img{
+  width: 450px;
+}
+
+.main p{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.skill{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.skill ul{
+  margin: -10px;
+  padding: 0 0px 0 20px;
+}
+
+.experience{
+  margin-top: 50px;
+}
